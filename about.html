@@ -1,110 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About Me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me & Education | Nizam Ansari - Quant Analyst</title>
+  <meta name="description" content="Detailed background, academic journey, education at NIT Raipur (CPI 9.58), experience at Futures First, honors, and competitive programming achievements of Nizam Ansari.">
+  <meta name="keywords" content="Nizam Ansari, About Nizam, NIT Raipur, MCA, BCA Merit Holder, Quant Analyst, Futures First, Commodity Futures, Time Series">
+  <meta name="author" content="Nizam Ansari">
 
-    <!-- Tab Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
-    <link rel="manifest" href="images/icon/site.webmanifest">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+  <link rel="manifest" href="images/icon/site.webmanifest">
 
-    <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond:ital@1&family=Indie+Flower&display=swap" rel="stylesheet">
-
-    <title>Not Available</title>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="a nonymous"></script>
-
-    <!--CSS files-->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--Font awesome-->
-    <script src="https://kit.fontawesome.com/d5d8f74eee.js" crossorigin="anonymous"></script>
-
-    <!-- Styling -->
-    <style>
-        .head
-        {
-            border-bottom: 1px dashed;
-        }
-    </style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">Nizam</a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">Certifications</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
-              </li>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="site-nav">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <span class="brand-badge">NA</span>
+        <div class="brand-title">
+          <span class="brand-name">Nizam Ansari</span>
+          <span class="brand-role">Quant Analyst</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="nav-link" id="navHome">Home</a></li>
+          <li><a href="about.html" class="nav-link active" id="navAbout">About & Education</a></li>
+          <li><a href="projects.html" class="nav-link" id="navProjects">Projects</a></li>
+          <li><a href="index.html#experience" class="nav-link" id="navExperience">Experience</a></li>
+          <li><a href="index.html#skills" class="nav-link" id="navSkills">Skills</a></li>
+          <li><a href="contact.html" class="nav-link" id="navContact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary btn-sm" id="ctaAboutContact">
+          <span>Get in Touch</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Hero Section -->
+    <section class="section" style="padding-top: 4rem;">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 2.5rem;">
+          <span class="section-tag">Biography & Background</span>
+          <h1 class="section-title">About Nizam Ansari</h1>
+          <p class="section-subtitle">
+            Quantitative Analyst with an academic foundation in Computer Applications from NIT Raipur and hands-on professional expertise in international commodity derivatives markets.
+          </p>
+        </div>
+
+        <!-- Narrative Card Grid -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; margin-bottom: 4rem; align-items: start;">
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2.5rem; backdrop-filter: blur(14px);">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1.25rem; color: var(--emerald-light); display: flex; align-items: center; gap: 0.6rem;">
+              <span>Engineering & Mathematical Focus</span>
+            </h3>
+            <p style="margin-bottom: 1rem; line-height: 1.75;">
+              I am a <strong>Quantitative Software Engineer & Applied Mathematics Developer</strong> based in Hyderabad, India. With an academic background in Computer Applications from <strong>NIT Raipur (CPI 9.58)</strong>, my work bridges the gap between scalable software architecture, computational algorithms, and applied mathematical statistics.
+            </p>
+            <p style="margin-bottom: 1rem; line-height: 1.75;">
+              At <strong>Futures First</strong>, I build high-throughput data processing workflows and statistical modeling engines. My engineering focus centers on building scalable Python and Django backend services, event-driven REST APIs, time-series econometrics (cointegration, unit root testing, regression), and calendar spread analytical engines.
+            </p>
+            <p style="line-height: 1.75;">
+              I leverage deep Computer Science principles—data structures, algorithm optimization, and relational database schema design—alongside modern <strong>LLM/RAG pipelines</strong> to automate high-dimensional financial data ingestion and synthesis.
+            </p>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2.5rem; backdrop-filter: blur(14px);">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1.25rem; color: var(--cyan-light);">
+              Core Engineering & Math Principles
+            </h3>
+            
+            <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+              <div style="display: flex; gap: 1rem;">
+                <div style="width: 36px; height: 36px; border-radius: var(--radius-sm); background: rgba(16, 185, 129, 0.15); color: var(--emerald-light); display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: var(--font-mono); flex-shrink: 0;">01</div>
+                <div>
+                  <h4 style="font-size: 1.1rem; color: var(--text-pure); margin-bottom: 0.25rem;">Algorithmic Rigor & Clean Code</h4>
+                  <p style="font-size: 0.95rem;">Building robust, modular software with clean architecture, strict Pydantic validation, well-designed relational data schemas, and unit test coverage.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 1rem;">
+                <div style="width: 36px; height: 36px; border-radius: var(--radius-sm); background: rgba(6, 182, 212, 0.15); color: var(--cyan-light); display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: var(--font-mono); flex-shrink: 0;">02</div>
+                <div>
+                  <h4 style="font-size: 1.1rem; color: var(--text-pure); margin-bottom: 0.25rem;">Mathematical & Statistical Foundations</h4>
+                  <p style="font-size: 0.95rem;">Applying formal time-series econometrics, cointegration testing, stationarity assessments, and feature engineering to model complex multi-asset relationship structures.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 1rem;">
+                <div style="width: 36px; height: 36px; border-radius: var(--radius-sm); background: rgba(99, 102, 241, 0.15); color: #A5B4FC; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: var(--font-mono); flex-shrink: 0;">03</div>
+                <div>
+                  <h4 style="font-size: 1.1rem; color: var(--text-pure); margin-bottom: 0.25rem;">Scalable Backend & Data Systems</h4>
+                  <p style="font-size: 0.95rem;">Designing event-sourced execution ledgers, token-authenticated RESTful APIs, and asynchronous data ingestion pipelines that process real-time market data reliably.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Credentials Section -->
+        <div class="section-header" style="margin-bottom: 2.5rem;">
+          <span class="section-tag">Education</span>
+          <h2 class="section-title">Academic Qualifications</h2>
+          <p class="section-subtitle">
+            Consistently recognized for top-tier academic excellence in Computer Applications and Applied Mathematics.
+          </p>
+        </div>
+
+        <div class="edu-grid" style="margin-bottom: 4rem;">
+          <!-- NIT Raipur -->
+          <div class="edu-card">
+            <div class="edu-header">
+              <div>
+                <h3 class="edu-institution">National Institute of Technology, Raipur</h3>
+                <div class="edu-degree">Master of Computer Application (MCA)</div>
+              </div>
+              <span class="edu-date">Oct, 2021 – June, 2024</span>
+            </div>
+
+            <div class="edu-score-box">
+              <span class="edu-score-label">Graduation CPI:</span>
+              <span class="edu-score-val">9.58 / 10.0</span>
+            </div>
+
+            <p class="edu-details" style="margin-bottom: 1rem;">
+              Completed post-graduation at an Institute of National Importance with distinction (CPI 9.58).
+            </p>
+
+            <ul class="project-points" style="margin-bottom: 0;">
+              <li><strong>Key Disciplines:</strong> Design & Analysis of Algorithms, Advanced Data Structures, Relational Database Management Systems (RDBMS), Operating Systems, and Statistical Modeling.</li>
+              <li><strong>Research & Engineering:</strong> Designed relational database systems, quantitative tools, and modern web architectures.</li>
+            </ul>
+          </div>
+
+          <!-- St. Vincent Pallotti College -->
+          <div class="edu-card">
+            <div class="edu-header">
+              <div>
+                <h3 class="edu-institution">St. Vincent Pallotti College, Raipur</h3>
+                <div class="edu-degree">Bachelors of Computer Application (BCA)</div>
+              </div>
+              <span class="edu-date">Aug, 2017 – Apr, 2020</span>
+            </div>
+
+            <div class="edu-score-box">
+              <span class="edu-score-label">Graduation Score:</span>
+              <span class="edu-score-val">79.6%</span>
+            </div>
+
+            <p class="edu-details" style="margin-bottom: 1rem;">
+              Graduated as <strong>University Merit Holder</strong> across Pt. Ravishankar Shukla University for exceptional academic standing.
+            </p>
+
+            <ul class="project-points" style="margin-bottom: 0;">
+              <li><strong>Foundations:</strong> Object-Oriented Programming (C++, Java), Database Design (SQL), Web Technologies, Discrete Mathematics.</li>
+              <li><strong>Leadership:</strong> Actively led departmental technical events, inter-college programming contests, and creative competitions.</li>
             </ul>
           </div>
         </div>
-      </nav>
-    <div class="about">
-        <h1>Sorry this page is not completed yet.</h1>
-    </div>
 
-    <div class="footer">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">Nizam</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">Certifications</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Me</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div class="social">
-          <a href="https://www.instagram.com/_nizam_ansari_/"><img src="images/icon/insta.png" style="width: 4%; margin: 2%;"></a>
-          <a href="https://www.linkedin.com/in/nizam-ansari-a84668236/"><img src="images/icon/linkdin.png" style="width: 4%;margin: 2%;"></a>
-          <a href="mailto:nansari.0134@gmail.com"><img src="images/icon/gmail.png" style="width: 4%;margin: 2%;"></a>
-          <a href="https://github.com/nansari-0134"><img src="images/icon/github.png" style="width: 4%;margin: 2%;"></a>
-          <a href="https://www.facebook.com/nizam.ansari.1650"><img src="images/icon/facebook.png" style="width: 4%;margin: 2%;"></a>
+        <!-- Honors & Key Recognitions -->
+        <div class="section-header" style="margin-bottom: 2.5rem;">
+          <span class="section-tag">Recognitions</span>
+          <h2 class="section-title">Honors & Achievements</h2>
         </div>
-        <div style="background-color: #2C3639;text-align: center;">
-          <p style="color: white;">....</p>
+
+        <div class="achievements-grid" style="margin-bottom: 4rem;">
+          <div class="achievement-card">
+            <div class="achievement-icon">🎖️</div>
+            <h4 class="achievement-title">University Merit Holder</h4>
+            <p class="achievement-desc">
+              Ranked among top university merit holders in BCA across Pt. Ravishankar Shukla University, Raipur.
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">⚡</div>
+            <h4 class="achievement-title">Global Rank 191 (GFG Contest 114)</h4>
+            <p class="achievement-desc">
+              Secured 191 Global rank out of thousands of competitive programmers in GeeksforGeeks Weekly Contest 114.
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">🏆</div>
+            <h4 class="achievement-title">Pocket Movie Competition Winner</h4>
+            <p class="achievement-desc">
+              First prize winner in the St. Vincent Pallotti College Interdepartmental Pocket Movie Competition.
+            </p>
+          </div>
+        </div>
+
+        <!-- Problem Solving Stats Breakdown -->
+        <div class="section-header" style="margin-bottom: 2.5rem;">
+          <span class="section-tag">Problem Solving</span>
+          <h2 class="section-title">Competitive Programming Highlights</h2>
+          <p class="section-subtitle">
+            Demonstrating structured algorithmic thinking, time complexity optimization, and disciplined practice.
+          </p>
+        </div>
+
+        <div class="profiles-grid" style="margin-bottom: 4rem;">
+          <div class="profile-card">
+            <div class="profile-platform">LeetCode</div>
+            <div class="profile-stat">240+ Problems</div>
+            <div class="profile-sub">Arrays, Dynamic Programming, Graphs & Trees</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-platform">HackerRank</div>
+            <div class="profile-stat">5 Stars ★★★★★</div>
+            <div class="profile-sub">Problem Solving Gold Badge Certified</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-platform">CodeChef</div>
+            <div class="profile-stat">3 Stars ★★★</div>
+            <div class="profile-sub">Rated Competitive Division Participant</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-platform">GeeksforGeeks</div>
+            <div class="profile-stat">100+ Problems</div>
+            <div class="profile-sub">Rank 191 in Weekly Contest 114</div>
+          </div>
+        </div>
+
+        <!-- Navigation CTA -->
+        <div style="text-align: center;">
+          <a href="projects.html" class="btn btn-primary" id="btnAboutExploreProjects">
+            <span>Explore Quantitative Projects</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+          <a href="contact.html" class="btn btn-secondary" style="margin-left: 0.75rem;">
+            <span>Get in Touch</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Block Transition Beam -->
+  <div class="transition-beam"></div>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="brand-badge">NA</span>
+            <span class="brand-name">Nizam Ansari</span>
+          </a>
+          <p>
+            Quant Analyst @ Futures First. Master of Computer Application (NIT Raipur, CPI 9.58). Focused on commodity futures, statistical modeling, and algorithmic bot execution.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Direct Channels</h4>
+            <ul>
+              <li><a href="mailto:nansari.0134@gmail.com">nansari.0134@gmail.com</a></li>
+              <li><a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+              <li><a href="https://www.linkedin.com/in/nizam-ansari-a84668236/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
+      <div class="footer-bottom">
+        <div>&copy; 2026 Nizam Ansari. All rights reserved.</div>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--emerald-light);">
+          NIT Raipur MCA (CPI 9.58) • Futures First Quant Analyst
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
