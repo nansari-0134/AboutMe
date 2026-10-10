@@ -1,155 +1,854 @@
-<html>
-    <head>
-        <!-- Tab Icons -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
-        <link rel="manifest" href="images/icon/site.webmanifest">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nizam Ansari | Quantitative Software Engineer & Applied Mathematics</title>
+  <meta name="description" content="Portfolio of Nizam Ansari - Quantitative Software Engineer and Applied Mathematics Developer specializing in scalable Python/Django systems, statistical modeling, time-series econometrics, and LLM/RAG architectures.">
+  <meta name="keywords" content="Nizam Ansari, Quantitative Developer, Software Engineer, NIT Raipur, Python, Django, Applied Mathematics, Time Series, Cointegration, REST API">
+  <meta name="author" content="Nizam Ansari">
 
-        <!--fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond:ital@1&family=Indie+Flower&display=swap" rel="stylesheet">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+  <link rel="manifest" href="images/icon/site.webmanifest">
 
-        <title>Welcome</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-        <!-- Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="a nonymous"></script>
-
-        <!--CSS files-->
-        <link rel="stylesheet" href="css/style.css">
-
-        <!--Font awesome-->
-        <!--<script src="https://kit.fontawesome.com/d5d8f74eee.js" crossorigin="anonymous"></script>-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <!-- <nav class="menu-bar">
-            <a href="index.html" class="menu-btn">Home</a>
-            <a href="#" class="menu-btn">Projects</a>
-            <a href="#" class="menu-btn">Certifications</a>
-            <a href="#" class="menu-btn">Contact Me</a>
-        </nav> -->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="#">Nizam</a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">Certifications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        <div class="name-box">
-            <h1 class="myname"> I am Nizam</h1>
-            <h3>A <u>Pro</u>grammer</h3>
-            <img src="images/background/mountain.png" alt="">
+  <!-- Sticky Glass Navigation Bar -->
+  <header class="site-nav">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <span class="brand-badge">NA</span>
+        <div class="brand-title">
+          <span class="brand-name">Nizam Ansari</span>
+          <span class="brand-role">Quant Developer</span>
         </div>
-        <hr>
-        <div class="mypic" style="text-align: center;">
-            <img src="images/mypic.jpg" alt="Nizam" style="border-radius: 100%;"><br>
-            <h2>Namaste.</h2>
-            <p>I am Enthusiastic and curious programmer, who loves to solve real life problems and<br>  
-                to learn new things. Not a party person but a good Speaker and listener.</p>
-        </div>
-        <hr>
-        <h2 style="text-align: center;">My Skills</h2>
-        <div class="myskills">
-            <div class="programming">
-                <img src="images/programming.png" alt="Programming" style="float:left;height: 200px;width: 200px;margin-left: 100px;margin-right: 30px;">
-                <div style="margin-right: 40px;">
-                    <h3>Programming</h3>
-                    <p>I am good at programming. languages I know are C, C++, Java, Python, Visual Basics.
-                        I used to participate on online coding challenges since 2020 and I used C and python in most of the challenges.</p>
-                </div>
-            </div>
-            <div class="webdev" style="margin-top: 200px;">
-                <img src="images/webdev.png" alt="Web Devlopement" style="float:right;height: 200px;width: 200px;margin-left: 30px;margin-right: 100px;">
-                <div style="margin-left: 40px;">
-                    <h3>Web Devlopement</h3>
-                    <p>Web Devlopement is the field in which I can show my creativity. I love to spend time to figure out what I can do 
-                        to make a page look more better. I know html, Css, JavaScript, Php and some techniques to design pages in web technology.
-                    </p>
-                </div>
-            </div>
-            <div class="dbms" style="margin-top: 200px;">
-                <img src="images/database.png" alt="DBMS" style="float:left;height: 200px;width: 200px;margin-left: 100px;margin-right: 30px;">
-                <div style="margin-right: 40px;">
-                    <h3>DataBase Management</h3>
-                    <p> Programming is fascinating but with DBMS, it is awesome. So I learned DBMS from very
-                        basic to Intermediate. Writing Queries is fun because we have to think and find the way 
-                        to get our desired result. I know SQl and aware of some Database management systems
-                        such as MySql, Oracle.
-                    </p>
-                </div>
-            </div>
-            <div class="ps" style="margin-top: 200px;">
-                <img src="images/photoshop.png" alt="Photoshop" style="float:right;height: 200px;width: 200px;margin-left: 30px;margin-right: 100px;">
-                <div style="margin-left: 40px;">
-                    <h3>Photoshop</h3>
-                    <p>
-                        Croping an object from a picture or creating a picture or modifying a picture, these are some 
-                        useful operations I used to do, so I can create an graphics to use in my applications.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-          <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="#">Nizam</a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">Certifications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <div class="social">
-            <a href="https://www.instagram.com/_nizam_ansari_/"><img src="images/icon/insta.png" style="width: 4%; margin: 2%;"></a>
-            <a href="https://www.linkedin.com/in/nizam-ansari-a84668236/"><img src="images/icon/linkdin.png" style="width: 4%;margin: 2%;"></a>
-            <a href="mailto:nansari.0134@gmail.com"><img src="images/icon/gmail.png" style="width: 4%;margin: 2%;"></a>
-            <a href="https://github.com/nansari-0134"><img src="images/icon/github.png" style="width: 4%;margin: 2%;"></a>
-            <a href="https://www.facebook.com/nizam.ansari.1650"><img src="images/icon/facebook.png" style="width: 4%;margin: 2%;"></a>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="nav-link active" id="navHome">Home</a></li>
+          <li><a href="about.html" class="nav-link" id="navAbout">About & Education</a></li>
+          <li><a href="projects.html" class="nav-link" id="navProjects">Projects & Systems</a></li>
+          <li><a href="#experience" class="nav-link" id="navExperience">Experience</a></li>
+          <li><a href="#skills" class="nav-link" id="navSkills">Skills & Math</a></li>
+          <li><a href="contact.html" class="nav-link" id="navContact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary btn-sm" id="ctaHeaderContact">
+          <span>Get in Touch</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="live-pulse"></span>
+            <span>Quant Developer & Backend Engineer • NIT Raipur MCA (CPI 9.58)</span>
           </div>
-          <div style="background-color: #2C3639;text-align: center;">
-            <p style="color: white;">....</p>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Nizam Ansari</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Quantitative Software Engineer & Applied Mathematics Developer
+          </h2>
+
+          <p class="hero-desc">
+            Software engineer specializing in high-performance quantitative computing, applied mathematical modeling, and financial data engineering. I architect statistical analysis pipelines, time-series econometric algorithms, event-driven REST APIs, and modular LLM/RAG systems for complex multi-asset derivatives data.
+          </p>
+
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary" id="heroBtnProjects">
+              <span>Explore Systems & Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+            <a href="#skills" class="btn btn-secondary" id="heroBtnSkills">
+              <span>Math & Engineering Stack</span>
+            </a>
+            <a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="heroBtnGithub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
           </div>
         </div>
-    </body>
+
+        <!-- Terminal & Mathematical Engine Preview Card (Replaces Picture) -->
+        <div class="hero-visual">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot dot-red"></span>
+                <span class="terminal-dot dot-yellow"></span>
+                <span class="terminal-dot dot-green"></span>
+              </div>
+              <div class="terminal-title">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+                <span>quant_analytics_engine.py</span>
+              </div>
+              <span class="badge badge-emerald" style="font-size: 0.7rem; padding: 0.2rem 0.6rem;">READY</span>
+            </div>
+
+            <div class="terminal-body">
+              <div><span class="code-comment"># Statistical Modeling & Cointegration Pipeline</span></div>
+              <div><span class="code-keyword">from</span> statsmodels.tsa.stattools <span class="code-keyword">import</span> coint, adfuller</div>
+              <div><span class="code-keyword">from</span> quant.engine.pricing <span class="code-keyword">import</span> CalendarSpreadEngine</div>
+              <br>
+              <div><span class="code-keyword">class</span> <span class="code-var">CommodityAnalyticsPipeline</span>:</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-fn">__init__</span>(self, forward_curve_feed):</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.curve = forward_curve_feed</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.spread_engine = CalendarSpreadEngine()</div>
+              <br>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-fn">evaluate_cointegration</span>(self, series_a, series_b):</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-comment"># Engle-Granger two-step cointegration test</span></div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;score, p_value, _ = <span class="code-fn">coint</span>(series_a, series_b)</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span> {<span class="code-string">"p_value"</span>: p_value, <span class="code-string">"stationary"</span>: p_value &lt; <span class="code-var">0.05</span>}</div>
+            </div>
+
+            <div class="terminal-footer-metrics">
+              <div class="terminal-metric">
+                <span class="live-pulse" style="width: 6px; height: 6px;"></span>
+                <span>REST API:</span>
+                <span class="terminal-metric-val">200 OK • Event Sourced</span>
+              </div>
+              <div class="terminal-metric">
+                <span>⚡ Backend:</span>
+                <span class="terminal-metric-val">Django & Python</span>
+              </div>
+              <div class="terminal-metric">
+                <span>📐 Math Engine:</span>
+                <span class="terminal-metric-val">Time Series & Stats</span>
+              </div>
+              <div class="terminal-metric">
+                <span>🎓 Academic:</span>
+                <span class="terminal-metric-val">NIT Raipur (9.58 CPI)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Metrics / Stats Counter Bar -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number"><span class="highlight">9.58</span><span style="font-size: 1.1rem; color: var(--text-muted);">/10</span></div>
+            <div class="stat-label">Master's CPI (NIT Raipur)</div>
+            <div class="stat-sub">Advanced Algorithms & Mathematics</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number"><span class="highlight">Python</span><span style="font-size: 1.2rem; color: var(--cyan-light);"> & Django</span></div>
+            <div class="stat-label">Backend & Systems Engineering</div>
+            <div class="stat-sub">REST APIs, Event Sourcing & ORM</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number"><span class="highlight">Math & Stats</span></div>
+            <div class="stat-label">Quantitative Modeling</div>
+            <div class="stat-sub">Cointegration, Time-Series & Spreads</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number"><span class="highlight">240+</span><span style="font-size: 1.4rem;">DSA</span></div>
+            <div class="stat-label">Problem Solving & Top 191 Rank</div>
+            <div class="stat-sub">5★ HackerRank • Global Rank 191 GFG</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block Transition Beam -->
+    <div class="transition-beam"></div>
+
+    <!-- Work Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Engineering Experience</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">
+            Hands-on quantitative systems engineering, high-throughput financial data pipelines, and database architecture.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience 1: Futures First -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Quant Analyst & Systems Developer</h3>
+                  <div class="timeline-company">
+                    <span>Futures First</span>
+                    <span class="badge badge-emerald">Full-time</span>
+                  </div>
+                </div>
+                <div class="timeline-meta">
+                  <div class="timeline-date">Jan, 2024 – May, 2026</div>
+                  <div class="timeline-location">Hyderabad, Telangana, India</div>
+                </div>
+              </div>
+
+              <div class="timeline-badge-bar">
+                <span class="badge badge-cyan">Quantitative Software Engineering</span>
+                <span class="badge badge-emerald">Time-Series Econometrics</span>
+                <span class="badge badge-indigo">Mathematical Modeling</span>
+                <span class="badge badge-amber">Algorithmic Execution Bots</span>
+              </div>
+
+              <ul class="timeline-bullets">
+                <li>
+                  <strong>High-Throughput Research & Execution Workflows:</strong> Built Python-based quantitative research workflows and automated execution engines for financial data ingestion, feature engineering, backtesting, event-driven analysis, and systematic execution.
+                </li>
+                <li>
+                  <strong>Mathematical & Statistical Modeling:</strong> Engineered quantitative models for international commodity derivatives using statistical modeling, time-series analysis, machine learning, seasonality, spread analysis, and relative-value frameworks.
+                </li>
+                <li>
+                  <strong>Market Structure & Curve Analytics:</strong> Developed analytical pipelines processing commodity market structure, including supply-demand dynamics, inventories, storage, refinery activity, futures forward curves, and calendar spreads.
+                </li>
+              </ul>
+
+              <div class="timeline-keywords">
+                <span class="badge">Python</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">NumPy</span>
+                <span class="badge">SciPy</span>
+                <span class="badge">Statsmodels</span>
+                <span class="badge">Scikit-learn</span>
+                <span class="badge">SQL</span>
+                <span class="badge">Data Pipelines</span>
+                <span class="badge">Time Series Modelling</span>
+                <span class="badge">Git</span>
+                <span class="badge">Matplotlib</span>
+                <span class="badge">Plotly</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: NIC MeitY -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Software Developer Intern</h3>
+                  <div class="timeline-company">
+                    <span>National Informatics Centre (NIC), MeitY</span>
+                    <span class="badge badge-cyan">Govt of India</span>
+                  </div>
+                </div>
+                <div class="timeline-meta">
+                  <div class="timeline-date">May, 2023 – June, 2023</div>
+                  <div class="timeline-location">Raipur, Chhattisgarh, India</div>
+                </div>
+              </div>
+
+              <div class="timeline-badge-bar">
+                <span class="badge badge-emerald">Django Web Architecture</span>
+                <span class="badge badge-cyan">Relational Schema & ORM</span>
+                <span class="badge badge-indigo">Modular Python Development</span>
+              </div>
+
+              <ul class="timeline-bullets">
+                <li>
+                  <strong>Full-Stack Application Design:</strong> Designed and developed an automated news classification and progress-tracking system with an interactive web-based UI.
+                </li>
+                <li>
+                  <strong>Database Systems & ORM Architecture:</strong> Designed a relational data model and implemented database operations using Django ORM with SQLite, including optimized schema design and CRUD workflows.
+                </li>
+                <li>
+                  <strong>Modular Component Integration:</strong> Integrated 10+ Python modules into the application to implement modular processing pipelines and reliable system functionality.
+                </li>
+              </ul>
+
+              <div class="timeline-keywords">
+                <span class="badge">Python</span>
+                <span class="badge">Django</span>
+                <span class="badge">SQLite</span>
+                <span class="badge">Django ORM</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">Relational Schema</span>
+                <span class="badge">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block Transition Beam -->
+    <div class="transition-beam"></div>
+
+    <!-- Featured Projects Section -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Systems & Architecture</span>
+          <h2 class="section-title">Flagship Engineering Projects</h2>
+          <p class="section-subtitle">
+            Production-grade pricing engines, derivatives trading APIs, financial data pipelines, and modular LLM/RAG systems.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Featured Project 1 -->
+          <div class="project-card featured" data-category="quant rag trading">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">SYSTEMS ARCHITECTURE • FINANCIAL DATA ENGINEERING • LLM/RAG</div>
+                  <h3 class="project-title">Commodity Market Intelligence & Quant Engine</h3>
+                </div>
+                <span class="project-date">Aug, 2026 – Oct, 2026</span>
+              </div>
+
+              <p class="project-desc">
+                An institutional-grade commodity market intelligence platform integrating continuous market feeds, forward curves, physical supply–demand balances, trade flows, and financial news across global commodity markets.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  <strong>End-to-End Data Engineering:</strong> Designed high-throughput pipelines unifying real-time quotes, forward curves, physical trade flows, and supply-demand fundamentals across international exchanges.
+                </li>
+                <li>
+                  <strong>Quantitative Analytics Engine:</strong> Engineered a Python/Django analytics core for statistical feature engineering, time-series econometric modeling, cointegration testing, spread analytics, market-regime assessment, and historical strategy backtesting.
+                </li>
+                <li>
+                  <strong>Modular LLM/RAG Research Pipeline:</strong> Architected independent agentic intelligence tracks to analyze market structure, commodity supply-demand fundamentals, and macro news separately—synthesizing multi-modal outputs into evidence-based market research dossiers.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge badge-emerald">Python</span>
+                <span class="badge badge-cyan">Django</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">NumPy</span>
+                <span class="badge">Pydantic</span>
+                <span class="badge">Statsmodels</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">SQL</span>
+                <span class="badge badge-indigo">LLMs</span>
+                <span class="badge badge-indigo">RAG</span>
+                <span class="badge">Time Series Modelling</span>
+                <span class="badge">Co-Integration</span>
+                <span class="badge">Lightweight Charts</span>
+                <span class="badge">OpenAI</span>
+                <span class="badge">Google-GenAI</span>
+                <span class="badge">Hugging Face</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="badge badge-emerald">Production Grade</span>
+              <div class="project-links">
+                <a href="https://github.com/nansari-0134/commodity-market-smart-analyst" target="_blank" rel="noopener noreferrer" class="btn btn-outline-emerald btn-sm">
+                  <span>GitHub Repository</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="projects.html" class="btn btn-secondary btn-sm">
+                  <span>View Details</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Featured Project 2 -->
+          <div class="project-card" data-category="quant trading">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">BACKEND API • DERIVATIVES PRICING • EVENT SOURCING</div>
+                  <h3 class="project-title" style="font-size: 1.35rem;">Multi-Leg Derivatives Trade Journal & Analytics</h3>
+                </div>
+                <span class="project-date">Jul, 2025</span>
+              </div>
+
+              <p class="project-desc">
+                High-throughput trade journaling and execution analytics engine engineered specifically for multi-leg derivatives strategies.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  Engineered a robust REST API and pricing engine supporting algorithmic execution for Outrights, Calendar Spreads, and Butterflies across CME, ICE, and BMD.
+                </li>
+                <li>
+                  Built a token-authenticated JSON REST API (<code>/api/trades/</code>) for trading bots to programmatically open, scale into, trim, and liquidate multi-leg positions with full auditability and event sourcing.
+                </li>
+                <li>
+                  Integrated the US CFTC API and BMD Palm Oil fundamental data, tracking commercial COT positioning, forward curves, and surveyor export metrics.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge badge-emerald">Python</span>
+                <span class="badge badge-cyan">Django</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">Financial Modeling</span>
+                <span class="badge">Event Sourcing</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">CFTC API</span>
+                <span class="badge">BMD Palm Oil</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="badge badge-cyan">API & Pricing Engine</span>
+              <div class="project-links">
+                <a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GitHub</span>
+                </a>
+                <a href="projects.html" class="btn btn-outline-emerald btn-sm">
+                  <span>Details</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Featured Project 3 / MeitY -->
+          <div class="project-card" data-category="web">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">ENTERPRISE APPLICATION • PYTHON • ORM</div>
+                  <h3 class="project-title" style="font-size: 1.35rem;">Automated News Classification & Tracking</h3>
+                </div>
+                <span class="project-date">May – Jun, 2023</span>
+              </div>
+
+              <p class="project-desc">
+                Enterprise workflow management and content classification software built during Software Developer Internship at National Informatics Centre (MeitY), Government of India.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  Automated news topic classification and multi-departmental progress-tracking workflow with an interactive web dashboard.
+                </li>
+                <li>
+                  Relational data architecture and database operations using Django ORM with SQLite, optimized schema indexing, and CRUD endpoints.
+                </li>
+                <li>
+                  Integrated 10+ Python processing modules for document parsing, status transitions, and audit trails.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge badge-emerald">Python</span>
+                <span class="badge badge-cyan">Django</span>
+                <span class="badge">SQLite</span>
+                <span class="badge">Django ORM</span>
+                <span class="badge">Relational Design</span>
+                <span class="badge">Web UI</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="badge badge-indigo">NIC MeitY</span>
+              <div class="project-links">
+                <a href="projects.html" class="btn btn-secondary btn-sm">
+                  <span>View Summary</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="projects.html" class="btn btn-primary" id="btnViewAllProjects">
+            <span>View All Projects & Systems</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block Transition Beam -->
+    <div class="transition-beam"></div>
+
+    <!-- Technical Skills & Mathematical Expertise Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Arsenal</span>
+          <h2 class="section-title">Development & Mathematical Skills</h2>
+          <p class="section-subtitle">
+            Strong foundation in software engineering, backend systems, time-series mathematics, and algorithmic problem solving.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Applied Mathematics & Quantitative Computing -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Applied Mathematics & Quant Computing</h3>
+                <span style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--emerald-light);">Statistical Modeling & Mathematical Features</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag" style="border-color: var(--border-emerald); color: var(--emerald-light); font-weight: 700;">Time-Series Econometrics</span>
+              <span class="skill-tag" style="border-color: var(--border-emerald); color: var(--emerald-light); font-weight: 700;">Cointegration Testing</span>
+              <span class="skill-tag">Statistical Feature Engineering</span>
+              <span class="skill-tag">Regression Analysis</span>
+              <span class="skill-tag">Calendar Spread Mathematics</span>
+              <span class="skill-tag">Seasonality Decomposition</span>
+              <span class="skill-tag">Relative Value Models</span>
+              <span class="skill-tag">Discrete Mathematics & Optimization</span>
+              <span class="skill-tag">Stationarity & Unit Root Tests</span>
+              <span class="skill-tag">Backtesting Engines</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Software Engineering & Backend Architecture -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Backend & Software Architecture</h3>
+                <span style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--cyan-light);">Scalable APIs & Data Systems</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag" style="border-color: var(--border-cyan); color: var(--cyan-light); font-weight: 700;">Python</span>
+              <span class="skill-tag" style="border-color: var(--border-cyan); color: var(--cyan-light); font-weight: 700;">Django</span>
+              <span class="skill-tag">Django REST Framework</span>
+              <span class="skill-tag">RESTful APIs</span>
+              <span class="skill-tag">Pydantic Validation</span>
+              <span class="skill-tag">Event Sourcing</span>
+              <span class="skill-tag">Relational Schema Design</span>
+              <span class="skill-tag">SQLite & MySQL</span>
+              <span class="skill-tag">Django ORM</span>
+              <span class="skill-tag">Git & Version Control</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Programming Languages & Core CS -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Languages & Core Computer Science</h3>
+                <span style="font-size: 0.8rem; font-family: var(--font-mono); color: #A5B4FC;">Algorithms & Engineering</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag" style="border-color: var(--border-emerald); color: var(--emerald-light); font-weight: 700;">Python</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Data Structures & Algorithms</span>
+              <span class="skill-tag">Object-Oriented Design</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Scientific Data Systems & AI -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Data Science, AI & Visual Analytics</h3>
+                <span style="font-size: 0.8rem; font-family: var(--font-mono); color: #FCD34D;">Pipelines & Insights</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">SciPy</span>
+              <span class="skill-tag">Statsmodels</span>
+              <span class="skill-tag">Scikit-learn</span>
+              <span class="skill-tag">LLMs (OpenAI, Gemini)</span>
+              <span class="skill-tag">RAG Pipelines</span>
+              <span class="skill-tag">Hugging Face</span>
+              <span class="skill-tag">Plotly & Matplotlib</span>
+              <span class="skill-tag">Lightweight Charts</span>
+              <span class="skill-tag">MkDocs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block Transition Beam -->
+    <div class="transition-beam"></div>
+
+    <!-- Education, Honors & Competitive Programming Section -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Foundation & Honors</span>
+          <h2 class="section-title">Education & Achievements</h2>
+          <p class="section-subtitle">
+            Strong computer science foundation, competitive programming record, and academic accolades.
+          </p>
+        </div>
+
+        <div class="edu-grid">
+          <!-- Education 1: NIT Raipur -->
+          <div class="edu-card">
+            <div class="edu-header">
+              <div>
+                <h3 class="edu-institution">National Institute of Technology, Raipur</h3>
+                <div class="edu-degree">Master of Computer Application (MCA)</div>
+              </div>
+              <span class="edu-date">Oct, 2021 – June, 2024</span>
+            </div>
+
+            <div class="edu-score-box">
+              <span class="edu-score-label">Cumulative Performance Index (CPI):</span>
+              <span class="edu-score-val">9.58 / 10.0</span>
+            </div>
+
+            <p class="edu-details">
+              Prestigious Institute of National Importance. Specialized in Advanced Algorithms, Data Structures, Relational Database Management Systems, Operating Systems, and Applied Mathematics.
+            </p>
+          </div>
+
+          <!-- Education 2: St. Vincent Pallotti College -->
+          <div class="edu-card">
+            <div class="edu-header">
+              <div>
+                <h3 class="edu-institution">St. Vincent Pallotti College, Raipur</h3>
+                <div class="edu-degree">Bachelors of Computer Application (BCA)</div>
+              </div>
+              <span class="edu-date">Aug, 2017 – Apr, 2020</span>
+            </div>
+
+            <div class="edu-score-box">
+              <span class="edu-score-label">Graduation Score:</span>
+              <span class="edu-score-val">79.6%</span>
+            </div>
+
+            <p class="edu-details">
+              Awarded <strong>University Merit Holder</strong> in BCA for outstanding academic standing across Pt. Ravishankar Shukla University.
+            </p>
+          </div>
+        </div>
+
+        <!-- Key Achievements Grid -->
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <div class="achievement-icon">🎖️</div>
+            <h4 class="achievement-title">University Merit Holder</h4>
+            <p class="achievement-desc">
+              Recognized as a University Merit Holder during Bachelors of Computer Application (BCA).
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">⚡</div>
+            <h4 class="achievement-title">Rank 191 Global (GFG Contest 114)</h4>
+            <p class="achievement-desc">
+              Secured 191 Global Rank out of thousands of competitive programmers in GeeksforGeeks Weekly Contest 114.
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">🎬</div>
+            <h4 class="achievement-title">Pocket Movie Competition Winner</h4>
+            <p class="achievement-desc">
+              Winner of the St. Vincent Pallotti College Interdepartmental Pocket Movie Competition.
+            </p>
+          </div>
+        </div>
+
+        <!-- Competitive Programming Profiles -->
+        <div style="margin-top: 3.5rem;">
+          <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 0.5rem;">Competitive Problem Solving</h3>
+          <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Demonstrated algorithmic proficiency and computational complexity optimization:</p>
+
+          <div class="profiles-grid">
+            <div class="profile-card">
+              <div class="profile-platform">LeetCode</div>
+              <div class="profile-stat">240+ Solved</div>
+              <div class="profile-sub">Data Structures & Algos</div>
+            </div>
+
+            <div class="profile-card">
+              <div class="profile-platform">HackerRank</div>
+              <div class="profile-stat">5 Stars ★★★★★</div>
+              <div class="profile-sub">Problem Solving Gold Badge</div>
+            </div>
+
+            <div class="profile-card">
+              <div class="profile-platform">CodeChef</div>
+              <div class="profile-stat">3 Stars ★★★</div>
+              <div class="profile-sub">Competitive Division Contests</div>
+            </div>
+
+            <div class="profile-card">
+              <div class="profile-platform">GeeksforGeeks</div>
+              <div class="profile-stat">100+ Solved</div>
+              <div class="profile-sub">Rank 191 Global Contest 114</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block Transition Beam -->
+    <div class="transition-beam"></div>
+
+    <!-- Quick Contact CTA Section -->
+    <section class="section" style="padding-bottom: 2rem;">
+      <div class="container">
+        <div style="background: var(--grad-surface); border: 1px solid var(--border-emerald); border-radius: var(--radius-xl); padding: 3.5rem 2.5rem; text-align: center; box-shadow: var(--shadow-lg); backdrop-filter: blur(16px); position: relative; overflow: hidden;">
+          <span class="badge badge-emerald" style="margin-bottom: 1.25rem;">Let's Connect</span>
+          <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Interested in Quantitative Engineering & Backend Systems?</h2>
+          <p style="max-width: 650px; margin: 0 auto 2rem; font-size: 1.1rem; color: var(--text-secondary);">
+            Whether you want to discuss backend architecture, applied mathematical modeling, algorithmic systems, or explore software engineering opportunities.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <a href="contact.html" class="btn btn-primary" id="btnCtaContact">
+              <span>Contact Nizam Ansari</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <button onclick="copyToClipboard('nansari.0134@gmail.com', 'Email')" class="btn btn-secondary" id="btnCopyEmailHero">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Copy Email</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="brand-badge">NA</span>
+            <span class="brand-name">Nizam Ansari</span>
+          </a>
+          <p>
+            Quantitative Software Engineer & Applied Mathematics Developer. High-performance data pipelines, backend architecture (Python, Django), time-series econometrics, and algorithmic problem solving.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/nizam-ansari-a84668236/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+            <a href="mailto:nansari.0134@gmail.com" class="social-icon-btn" title="Email" aria-label="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About & Education</a></li>
+              <li><a href="projects.html">Systems & Projects</a></li>
+              <li><a href="#experience">Career Timeline</a></li>
+              <li><a href="#skills">Skills & Math</a></li>
+              <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Direct Channels</h4>
+            <ul>
+              <li><a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+              <li><a href="https://www.linkedin.com/in/nizam-ansari-a84668236/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+              <li><a href="mailto:nansari.0134@gmail.com">nansari.0134@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Nizam Ansari. All rights reserved.</div>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--emerald-light);">
+          Quantitative Software Engineering • Applied Mathematics • NIT Raipur MCA (CPI 9.58)
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive JavaScript -->
+  <script src="js/main.js"></script>
+</body>
 </html>

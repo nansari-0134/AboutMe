@@ -1,163 +1,461 @@
-<html>
-    <head>
-        <!-- Tab Icons -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
-        <link rel="manifest" href="images/icon/site.webmanifest">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flagship Projects & Quantitative Engines | Nizam Ansari</title>
+  <meta name="description" content="Explore quantitative research engines, multi-leg derivatives trade journals, CFTC analytics, and LLM/RAG market intelligence pipelines developed by Nizam Ansari.">
+  <meta name="keywords" content="Commodity Market Intelligence, Quant Engine, Multi-Leg Derivatives, CME, ICE, BMD, Trading Journal, CFTC API, RAG, Python, Django">
+  <meta name="author" content="Nizam Ansari">
 
-        <!--fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond:ital@1&family=Indie+Flower&display=swap" rel="stylesheet">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+  <link rel="manifest" href="images/icon/site.webmanifest">
 
-        <title>My Projects</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-        <!-- Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="a nonymous"></script>
+  <!-- Sticky Navigation Bar -->
+  <header class="site-nav">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <span class="brand-badge">NA</span>
+        <div class="brand-title">
+          <span class="brand-name">Nizam Ansari</span>
+          <span class="brand-role">Quant Analyst</span>
+        </div>
+      </a>
 
-        <!--CSS files-->
-        <link rel="stylesheet" href="css/style.css">
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="nav-link" id="navHome">Home</a></li>
+          <li><a href="about.html" class="nav-link" id="navAbout">About & Education</a></li>
+          <li><a href="projects.html" class="nav-link active" id="navProjects">Projects</a></li>
+          <li><a href="index.html#experience" class="nav-link" id="navExperience">Experience</a></li>
+          <li><a href="index.html#skills" class="nav-link" id="navSkills">Skills</a></li>
+          <li><a href="contact.html" class="nav-link" id="navContact">Contact</a></li>
+        </ul>
+      </nav>
 
-         <!--Font awesome-->
-         <script src="https://kit.fontawesome.com/d5d8f74eee.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <!-- <nav class="menu-bar">
-            <a href="index.html" class="menu-btn">Home</a>
-            <a href="#" class="menu-btn">Projects</a>
-            <a href="#" class="menu-btn">Certifications</a>
-            <a href="#" class="menu-btn">Contact Me</a>
-        </nav> -->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="#">Nizam</a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="projects.html">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">Certifications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-        <h1 style="padding-top:3%;"><strong> &nbsp;&nbsp;&nbsp;Projects</strong></h1>
-        <div class="myprojects container">
-            <div class="msk box row">
-                <div class="col-lg-6 desc">
-                    <h2>MSK YADU Transport</h2>
-                    <p>This software is designed to fulfill the requirements of a local material transportation company
-                        named as MSK Yadu Transport. This software handles all the employees and customer accounts, 
-                        Reciet generation of any work for employee and customers, generate reports on the basis of historic 
-                        data and balance sheet generation.
-                    </p>
-                    <a href="#">Learn More..</a>
-                </div>
-                <div class="col-lg-6 img-box">
-                    <img src="images/projects/msk/daily-trans.png" class="image-odd img-thumbnail shadow">
-                </div>
-                <!-- <img src="images/projects/msk/intro.png" style="width: 100%; margin: auto;"> -->
-            </div>
-            <hr>
-            <div class="exm box row">
-              <div class="col-lg-6 img-box">
-                <img src="images/projects/online-exam/home.jpg" class="image-even img-thumbnail shadow">
-              </div>
-              <div class="col-lg-6 desc">
-                  <h2>Online Exam system</h2>
-                  <p>Online Exam system is a Multiple choice question based testing platform. In which admin uploads test 
-                    and specific students can appear in that test. This system majorly focuses on requirements of competitive
-                    academic institutions to test there students.
-                  </p>
-                  <a href="#">Learn More..</a>
-              </div>
-            </div>
-            <hr>
-            <div class="student box row">
-              <div class="col-lg-6 desc">
-                  <h2>Student Help Center</h2>
-                  <p>During my 2nd year of graduation, I was facing a problem of searching appropriate books 
-                    for my course. It was annoying. And also I don't had any contact with seniors so I can't even ask
-                    them. So I decided to make a platform in which seniors can get rid of their old stuffs and juniors
-                    can have those stuffs which are useful for them. 
-                  </p>
-                  <a href="#">Learn More..</a>
-              </div>
-              <div class="col-lg-6 img-box">
-                  <img src="images/projects/student/home.jpg" class="image-odd img-thumbnail shadow">
-              </div>
-              <!-- <img src="images/projects/msk/intro.png" style="width: 100%; margin: auto;"> -->
-            </div>
-            <hr>
-            <div class="tictactoe box row">
-              <div class="col-lg-6 img-box">
-                <img src="images/projects/tictac/welcome.png" class="image-even img-thumbnail shadow">
-              </div>
-              <div class="col-lg-6 desc">
-                  <h2>Tic Tac Toe in C</h2>
-                  <p>I am having affection with C language. And to go deeper in that and to improve my problem
-                    solving skills, I started making 8-bit graphics based Tic tac Toe game.
-                  </p>
-                  <a href="#">Learn More..</a>
-              </div>
-            </div>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary btn-sm" id="ctaProjectsContact">
+          <span>Get in Touch</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="padding-top: 4rem;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio & Architecture</span>
+          <h1 class="section-title">Projects & Quant Systems</h1>
+          <p class="section-subtitle">
+            Algorithmic pricing engines, institutional derivatives trade journals, real-time commodity data pipelines, and modular LLM/RAG research agents.
+          </p>
         </div>
 
+        <!-- Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="quant">Quantitative Research</button>
+          <button class="filter-btn" data-filter="trading">Derivatives & Trading Bots</button>
+          <button class="filter-btn" data-filter="rag">LLM & Financial RAG</button>
+          <button class="filter-btn" data-filter="web">Web & Database Systems</button>
+        </div>
 
-        <div class="footer">
-          <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="#">Nizam</a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="projects.html">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">Certifications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
-                  </li>
-                </ul>
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: Commodity Market Intelligence & Quant Engine -->
+          <div class="project-card featured" data-category="quant rag trading">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">FLAGSHIP • QUANTITATIVE RESEARCH • FINANCIAL DATA ENGINEERING • LLM/RAG</div>
+                  <h2 class="project-title">Commodity Market Intelligence & Quant Engine</h2>
+                </div>
+                <span class="project-date">Aug, 2026 – Oct, 2026</span>
+              </div>
+
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+                <span class="badge badge-emerald">CME / ICE / BMD</span>
+                <span class="badge badge-cyan">Forward Curve Dynamics</span>
+                <span class="badge badge-indigo">Modular Multi-Agent RAG</span>
+                <span class="badge badge-amber">Cointegration Analytics</span>
+              </div>
+
+              <p class="project-desc">
+                An advanced financial intelligence platform built to bridge the gap between continuous market feeds, forward curves, physical supply-demand metrics, trade flows, and breaking macroeconomic news across global commodity markets.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  <strong>Comprehensive Market Data Ingestion:</strong> Ingests high-frequency market prices, continuous contract series, futures curves, fundamentals, supply–demand balances, trade flows, and financial news across international exchanges.
+                </li>
+                <li>
+                  <strong>Quantitative Analytics Engine:</strong> Engineered a Python & Django analytics core for statistical feature engineering, time-series modeling, spread analytics, cointegration testing, market-regime assessment, signal generation, and historical strategy evaluation.
+                </li>
+                <li>
+                  <strong>Modular LLM/RAG Research Pipeline:</strong> Architected independent, modular LLM/RAG pipelines to analyze market structure, commodity fundamentals, and news sentiment independently, synthesizing their outputs into evidence-based research dossiers.
+                </li>
+                <li>
+                  <strong>Interactive Financial Visualizations:</strong> Embedded interactive TradingView Lightweight Charts and Plotly figures for real-time forward curves, term structure shifts, and historical spread distribution curves.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge badge-emerald">Python</span>
+                <span class="badge badge-cyan">Django</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">NumPy</span>
+                <span class="badge">Pydantic</span>
+                <span class="badge">Statsmodels</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">SQL</span>
+                <span class="badge badge-indigo">LLMs</span>
+                <span class="badge badge-indigo">RAG</span>
+                <span class="badge">Time Series Modelling</span>
+                <span class="badge">Co-Integration</span>
+                <span class="badge">Lightweight Charts</span>
+                <span class="badge">OpenAI</span>
+                <span class="badge">Google-GenAI</span>
+                <span class="badge">Hugging Face</span>
               </div>
             </div>
-          </nav>
-          <div class="social">
-            <a href="https://www.instagram.com/_nizam_ansari_/"><img src="images/icon/insta.png" style="width: 4%; margin: 2%;"></a>
-            <a href="https://www.linkedin.com/in/nizam-ansari-a84668236/"><img src="images/icon/linkdin.png" style="width: 4%;margin: 2%;"></a>
-            <a href="mailto:nansari.0134@gmail.com"><img src="images/icon/gmail.png" style="width: 4%;margin: 2%;"></a>
-            <a href="https://github.com/nansari-0134"><img src="images/icon/github.png" style="width: 4%;margin: 2%;"></a>
-            <a href="https://www.facebook.com/nizam.ansari.1650"><img src="images/icon/facebook.png" style="width: 4%;margin: 2%;"></a>
+
+            <div class="project-footer">
+              <span class="badge badge-emerald">Production Grade</span>
+              <div class="project-links">
+                <a href="https://github.com/nansari-0134/commodity-market-smart-analyst" target="_blank" rel="noopener noreferrer" class="btn btn-outline-emerald btn-sm">
+                  <span>GitHub Repository</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
-          <div style="background-color: #2C3639;text-align: center;">
-            <p style="color: white;">....</p>
+
+          <!-- Project 2: Multi-Leg Derivatives Trade Journal -->
+          <div class="project-card" data-category="quant trading">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">TRADE JOURNAL • CFTC • STATISTICAL ANALYSIS</div>
+                  <h2 class="project-title" style="font-size: 1.45rem;">Multi-Leg Derivatives Trade Journal & Commodity Analytics Engine</h2>
+                </div>
+                <span class="project-date">Jul, 2025</span>
+              </div>
+
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+                <span class="badge badge-emerald">Outrights & Spreads</span>
+                <span class="badge badge-cyan">Butterflies</span>
+                <span class="badge badge-amber">CFTC COT Data</span>
+              </div>
+
+              <p class="project-desc">
+                An institutional trade journal and analytics engine engineered specifically for algorithmic trading bots executing multi-leg derivatives strategies.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  <strong>Pricing & Algorithmic Execution:</strong> Engineered a REST API and pricing engine supporting programmatic execution for Outrights, Calendar Spreads, and Butterflies across CME, ICE, and BMD.
+                </li>
+                <li>
+                  <strong>Token-Authenticated Execution API:</strong> Built a high-performance JSON REST API (<code>/api/trades/</code>) allowing automated trading bots to programmatically open, scale into, trim, and liquidate multi-leg positions with transactional audit logging.
+                </li>
+                <li>
+                  <strong>CFTC & BMD Palm Oil Integration:</strong> Integrated the US CFTC API and BMD Palm Oil fundamental data, tracking commercial Commitments of Traders (COT) positioning, forward curves, and surveyor export metrics.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge badge-emerald">Python</span>
+                <span class="badge badge-cyan">Django</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">Financial Modeling</span>
+                <span class="badge">Event Sourcing</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">CFTC API</span>
+                <span class="badge">BMD Palm Oil</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="badge badge-cyan">Derivatives Analytics</span>
+              <div class="project-links">
+                <a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: NIC News Classification System -->
+          <div class="project-card" data-category="web">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">NATIONAL INFORMATICS CENTRE • MEITY INTERNSHIP</div>
+                  <h2 class="project-title" style="font-size: 1.45rem;">Automated News Classification & Progress-Tracking System</h2>
+                </div>
+                <span class="project-date">May – Jun, 2023</span>
+              </div>
+
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+                <span class="badge badge-indigo">Govt of India</span>
+                <span class="badge badge-cyan">Django ORM</span>
+                <span class="badge badge-emerald">Relational Database</span>
+              </div>
+
+              <p class="project-desc">
+                Enterprise workflow management and content classification software designed and implemented during internship at NIC (MeitY), Government of India.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  Designed and developed an automated news classification and progress-tracking system with an interactive web-based UI.
+                </li>
+                <li>
+                  Designed a relational data model and implemented database operations using Django ORM with SQLite, including schema design and CRUD workflows.
+                </li>
+                <li>
+                  Integrated 10+ Python modules into the application to implement modular processing, status tracking, and reporting functionality.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge badge-emerald">Python</span>
+                <span class="badge badge-cyan">Django</span>
+                <span class="badge">SQLite</span>
+                <span class="badge">Django ORM</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">CRUD Workflows</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="badge badge-indigo">MeitY Internship</span>
+              <div class="project-links">
+                <a href="about.html" class="btn btn-secondary btn-sm">
+                  <span>Internship Summary</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: MSK Transport System -->
+          <div class="project-card" data-category="web">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">LOGISTICS & ACCOUNTING • ENTERPRISE MANAGEMENT</div>
+                  <h2 class="project-title" style="font-size: 1.45rem;">MSK Yadu Transport Management System</h2>
+                </div>
+                <span class="project-date">2021 – 2022</span>
+              </div>
+
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+                <span class="badge badge-cyan">Accounting & Ledger</span>
+                <span class="badge badge-amber">Reporting</span>
+              </div>
+
+              <p class="project-desc">
+                Comprehensive software designed for local material transportation logistics, managing fleets, customer accounts, and automated receipt generation.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  Engineered account management modules handling employee wages, client billings, and freight vouchers.
+                </li>
+                <li>
+                  Automated balance sheet calculations and report generation based on multi-year historic data.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge">Database Systems</span>
+                <span class="badge">SQL</span>
+                <span class="badge">Reporting</span>
+                <span class="badge">Financial Accounting</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="badge">Foundational</span>
+              <div class="project-links">
+                <a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Online Exam System -->
+          <div class="project-card" data-category="web">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">ACADEMIC EVALUATION • TESTING PLATFORM</div>
+                  <h2 class="project-title" style="font-size: 1.45rem;">Online MCQ Examination Platform</h2>
+                </div>
+                <span class="project-date">2021</span>
+              </div>
+
+              <p class="project-desc">
+                A multi-tenant multiple-choice academic assessment platform built for competitive academic institutions.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  Admin dashboard for scheduling timed exams, batching candidate rosters, and publishing question banks.
+                </li>
+                <li>
+                  Real-time candidate testing interface with timer auto-submission, instant grading, and percentile ranking.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge">Web Development</span>
+                <span class="badge">MySQL</span>
+                <span class="badge">Assessment Engine</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="badge">Academic</span>
+              <div class="project-links">
+                <a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: Tic Tac Toe in C -->
+          <div class="project-card" data-category="quant">
+            <div>
+              <div class="project-card-header">
+                <div>
+                  <div class="project-tagline">SYSTEMS PROGRAMMING • ALGORITHMS • C</div>
+                  <h2 class="project-title" style="font-size: 1.45rem;">8-Bit Graphical Tic Tac Toe in C</h2>
+                </div>
+                <span class="project-date">2020</span>
+              </div>
+
+              <p class="project-desc">
+                Algorithmic game tree exploration built in low-level C with custom 8-bit graphics rendering.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  Implemented minimax game tree algorithm ensuring optimal AI decision states against human players.
+                </li>
+                <li>
+                  Optimized memory management and direct graphics memory manipulation in C.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="badge">C Language</span>
+                <span class="badge">Algorithms</span>
+                <span class="badge">Minimax</span>
+                <span class="badge">Game Trees</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="badge">Algorithmic</span>
+              <div class="project-links">
+                <a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Contact CTA -->
+        <div style="text-align: center; margin-top: 4.5rem;">
+          <h3 style="font-size: 1.6rem; margin-bottom: 1rem;">Interested in reviewing code architectures or research methodologies?</h3>
+          <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 1.5rem;">
+            Feel free to inspect my open-source code repositories or reach out directly for a discussion.
+          </p>
+          <a href="contact.html" class="btn btn-primary">
+            <span>Contact Nizam</span>
+          </a>
+          <a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="margin-left: 0.75rem;">
+            <span>Visit GitHub Profile</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Block Transition Beam -->
+  <div class="transition-beam"></div>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="brand-badge">NA</span>
+            <span class="brand-name">Nizam Ansari</span>
+          </a>
+          <p>
+            Quant Analyst @ Futures First. Quantitative research in commodity futures, statistical modeling, algorithmic execution, and financial data engineering.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About & Education</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="https://github.com/nansari-0134" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+              <li><a href="https://www.linkedin.com/in/nizam-ansari-a84668236/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+              <li><a href="mailto:nansari.0134@gmail.com">nansari.0134@gmail.com</a></li>
+            </ul>
           </div>
         </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Nizam Ansari. All rights reserved.</div>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--emerald-light);">
+          Institutional Commodity Derivatives • Quantitative Analytics
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
